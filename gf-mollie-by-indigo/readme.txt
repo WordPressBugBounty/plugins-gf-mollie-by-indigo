@@ -1,9 +1,9 @@
 === GF Mollie by Indigo ===
 Contributors: indigonl
 Tags: gravity forms, ideal, bancontact, mollie
-Requires at least: 6.5
-Tested up to: 6.6
-Stable tag: 2.0.4
+Requires at least: 6.7.1
+Tested up to: 6.7.1
+Stable tag: 2.0.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,8 +26,8 @@ WordPress plugin required
 Gravity Forms
 Author: Rocketgenius
 Website: https://www.gravityforms.com/
-Requires at least version: 2.8.0
-Tested till version: 2.8.5
+Requires at least version: 2.9.2
+Tested till version: 2.9.2
 
 Payment methods supported
 iDEAL, Mastercard, Visa, American Express, Bancontact, PayPal, SEPA Direct Debit, SEPA Transfer, Gift Vouchers, KBC/CBC Payment Button, Belfius, Bitcoin, SOFORT Banking, paysafecard, CartaSi, Cartes Bancaires.
