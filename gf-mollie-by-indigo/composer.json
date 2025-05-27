@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mollie/mollie-api-php": "v2.79.1"
+    }
+}

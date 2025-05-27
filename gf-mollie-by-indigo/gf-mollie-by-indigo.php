@@ -3,7 +3,7 @@
 Plugin Name: GF Mollie by Indigo
 Plugin URI: http://www.indigowebstudio.nl
 Description: Integrates Gravity Forms with Mollie, enabling end users to purchase goods and services through Gravity Forms.
-Version: 2.0.5
+Version: 2.1.2
 Author: Indigo webstudio
 Author URI: http://www.indigowebstudio.nl
 Text Domain: gf-mollie-by-indigo
@@ -29,7 +29,7 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
 
 
-define( 'GF_MOLLIE_BY_INDIGO_VERSION', '2.0.5' );
+define( 'GF_MOLLIE_BY_INDIGO_VERSION', '2.1.2' );
 
 add_action( 'gform_loaded', array( 'GF_Mollie_Bootstrap', 'load' ), 5 );
 
@@ -54,7 +54,7 @@ class GF_Mollie_Bootstrap {
 		$load_mollie = apply_filters( 'gf_mollie_load_api', true );
 		if ( $load_mollie ) {
 
-			require_once plugin_dir_path( __FILE__ ) . 'Mollie/vendor/autoload.php';
+			require_once plugin_dir_path( __FILE__ ) . 'vendor/autoload.php';
 		}
 
 		require_once( 'class-gf-mollie.php' );
